@@ -1,0 +1,31 @@
+<!-- <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" [routerLink]="['/home']">
+                <i class="glyphicon glyphicon-film logo" style="color:red"> ShowTime</i>
+            </a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"> <a [routerLink]="['/home']">Search</a>
+            </li>
+
+        </ul>
+    </div>
+</nav> -->
+
+
+<div class="topnav">
+    <a class="navbar-brand" [routerLink]="['/home']">
+        <i class="glyphicon glyphicon-film logo" style="color:red"> ShowTime</i>
+    </a>
+    <a [routerLink]="['/home']">New Realeses</a>
+
+    <a [routerLink]="['/home']">Famous Series</a>
+
+    <div class="search-container">
+        <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="glyphicon glyphicon-search"></i></button>
+        </form>
+    </div>
+</div>
